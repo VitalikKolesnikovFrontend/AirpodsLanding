@@ -117,3 +117,36 @@ body {
     z-index: -1;
     position: relative;
 }
+
+.choose-color {
+    padding: 45px 0 180px;
+    text-align: center;
+}
+
+.choose-color__title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 120%;
+    max-width: 550px;
+    margin: 0 auto 20px;
+}
+
+.choose-color__text {
+    max-width: 550px;
+    margin: 0 auto 80px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+}
+
+.choose-color__list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+ .choose-color__btn {
+    border-radius: 20px;
+    border: 1px solid #777;
+    padding: 40px;
+ }
