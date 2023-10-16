@@ -128,7 +128,15 @@ body {
     padding: 45px 0 180px;
     text-align: center;
 }
-
+.choose-color__btn--active {
+    display: none;
+}
+.content-item {
+    display: none;
+}
+.content-item.content-item__active {
+    display: inline-block;
+}
 .choose-color__title {
     font-size: 36px;
     font-weight: 700;
